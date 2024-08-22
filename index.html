@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +19,64 @@
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header></header>
+    <header class="bg-gradient-to-t from-white to-slate-100	">
+        <nav class="container mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="flex justify-center items-center space-x-1">
+                        <div class="bg-[#ABEF5F] rounded-full h-6 w-6 text-center ">
+                            <i class="fa-solid fa-arrow-right text-sm -rotate-45"></i>
+                        </div>
+                        <a class="font-extrabold text-[#212121] text-3xl">
+                            Rinterio</a>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-base font-extrabold text-[#494949]"><a>Home</a></li>
+                        <li class="text-base text-[#797979]"><a>Services</a></li>
+                        <li class="text-base text-[#797979]"><a>Portfolio</a></li>
+                        <li class="text-base text-[#797979]"><a>Blogs</a></li>
+                        <li class="text-base text-[#797979]"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end space-x-2">
+                    <button class="sm:hidden md:flex btn btn-circle p-1 bg-white">
+                        <i class=" fa-solid fa-magnifying-glass text-[#747474] text-xl"></i>
+                    </button>
+                    <button class="sm:hidden md:flex bg-white btn btn-circle p-1">
+                        <i class="fa-solid fa-cart-shopping text-[#747474] text-xl"></i>
+                    </button>
+                    <a class="sm:hidden md:flex btn bg-[#ABEF5F] rounded-3xl">Book Consult
+                        <div class="bg-black rounded-full h-6 w-6 text-center ">
+                            <i class="fa-solid fa-arrow-right text-sm -rotate-45 text-white"></i>
+                        </div>
+                    </a>
+                    <div class="dropdown relative">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-0">
+                            <li class="text-base font-extrabold text-[#494949]"><a>Home</a></li>
+                            <li class="text-base text-[#797979]"><a>Services</a></li>
+                            <li class="text-base text-[#797979]"><a>Portfolio</a></li>
+                            <li class="text-base text-[#797979]"><a>Blogs</a></li>
+                            <li class="text-base text-[#797979]"><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main></main>
     <footer></footer>
 </body>
+
 </html>
